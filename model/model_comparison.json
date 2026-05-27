@@ -1,0 +1,9 @@
+{
+    "metric": "r2_score",
+    "best_model": "Random Forest",
+    "scores": {
+        "Linear Regression": 0.030741529886839758,
+        "Decision Tree": -0.016871875690123384,
+        "Random Forest": 0.08284626701750075
+    }
+}
