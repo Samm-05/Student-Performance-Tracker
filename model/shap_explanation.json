@@ -1,0 +1,4 @@
+{
+    "available": false,
+    "reason": "SHAP is not installed. Install shap to generate SHAP explanations."
+}
