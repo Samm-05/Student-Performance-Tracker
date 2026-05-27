@@ -1,6 +1,6 @@
 {
-    "model_version": "20260527_200142",
-    "created_at": "2026-05-27T20:01:55.568733",
+    "model_version": "20260527_210128",
+    "created_at": "2026-05-27T21:01:41.145712",
     "target": "G3",
     "legacy_model": {
         "path": "C:\\Users\\ASUS\\Desktop\\Student-Performance-Tracker\\model\\model.pkl",

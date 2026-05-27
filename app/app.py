@@ -141,7 +141,7 @@ def render_model_info_page():
         ).sort_values("R2 Score", ascending=False)
 
         st.subheader("Model Comparison")
-        st.dataframe(scores_df, use_container_width=True, hide_index=True)
+        st.dataframe(scores_df, width="stretch", hide_index=True)
         st.bar_chart(scores_df, x="Model", y="R2 Score")
     else:
         st.warning("No model scores were found in the comparison file.")
