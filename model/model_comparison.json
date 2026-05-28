@@ -2,15 +2,15 @@
     "metric": "r2_score",
     "best_model": "Random Forest",
     "scores": {
-        "Linear Regression": 0.7718739240377832,
+        "Linear Regression": 0.7718739240377834,
         "Decision Tree": 0.7706258314140504,
-        "Random Forest": 0.8583561767417873
+        "Random Forest": 0.8621932375832213
     },
     "advanced_results": {
         "Linear Regression": {
-            "r2_score": 0.7718739240377832,
-            "mae": 1.4028270582602762,
-            "rmse": 2.1628074280165754,
+            "r2_score": 0.7718739240377834,
+            "mae": 1.4028270582602758,
+            "rmse": 2.1628074280165746,
             "cross_validation_r2_mean": 0.8415065587106824,
             "best_params": {}
         },
@@ -25,14 +25,14 @@
             }
         },
         "Random Forest": {
-            "r2_score": 0.8583561767417873,
-            "mae": 1.070759493670886,
-            "rmse": 1.7042339308731183,
-            "cross_validation_r2_mean": 0.8961214560918501,
+            "r2_score": 0.8621932375832213,
+            "mae": 1.0587341772151897,
+            "rmse": 1.6809920217583396,
+            "cross_validation_r2_mean": 0.8942484937559325,
             "best_params": {
                 "model__max_depth": null,
                 "model__min_samples_leaf": 1,
-                "model__n_estimators": 200
+                "model__n_estimators": 100
             }
         }
     }

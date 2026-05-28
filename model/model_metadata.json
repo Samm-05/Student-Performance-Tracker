@@ -1,6 +1,6 @@
 {
-    "model_version": "20260527_210128",
-    "created_at": "2026-05-27T21:01:41.145712",
+    "model_version": "20260528_220911",
+    "created_at": "2026-05-28T22:09:20.759219",
     "target": "G3",
     "legacy_model": {
         "path": "C:\\Users\\ASUS\\Desktop\\Student-Performance-Tracker\\model\\model.pkl",
@@ -28,6 +28,7 @@
             "studytime",
             "failures",
             "absences",
+            "attendance_rate",
             "Medu",
             "Fedu",
             "internet",
@@ -38,17 +39,17 @@
         ],
         "uses_prior_grades": true,
         "metrics": {
-            "r2_score": 0.8583561767417873,
-            "mae": 1.070759493670886,
-            "rmse": 1.7042339308731183,
-            "cross_validation_r2_mean": 0.8961214560918501,
+            "r2_score": 0.8621932375832213,
+            "mae": 1.0587341772151897,
+            "rmse": 1.6809920217583396,
+            "cross_validation_r2_mean": 0.8942484937559325,
             "best_params": {
                 "model__max_depth": null,
                 "model__min_samples_leaf": 1,
-                "model__n_estimators": 200
+                "model__n_estimators": 100
             }
         },
-        "confidence_score": 0.8583561767417873
+        "confidence_score": 0.8621932375832213
     },
     "early_warning_model": {
         "path": "C:\\Users\\ASUS\\Desktop\\Student-Performance-Tracker\\model\\early_warning_model.pkl",
@@ -59,6 +60,7 @@
             "studytime",
             "failures",
             "absences",
+            "attendance_rate",
             "Medu",
             "Fedu",
             "internet",
@@ -69,10 +71,10 @@
         ],
         "uses_prior_grades": false,
         "metrics": {
-            "r2_score": 0.06880084678766529,
-            "mae": 3.569890295358651,
-            "rmse": 4.369700522072648,
-            "cross_validation_r2_mean": 0.010527739912228684
+            "r2_score": 0.07214276933929997,
+            "mae": 3.5676835443037977,
+            "rmse": 4.361852401527875,
+            "cross_validation_r2_mean": 0.011310116129066494
         }
     },
     "risk_probability_model": {
@@ -86,6 +88,7 @@
             "studytime",
             "failures",
             "absences",
+            "attendance_rate",
             "Medu",
             "Fedu",
             "internet",
@@ -97,8 +100,8 @@
         "positive_class": "G3 < 8",
         "metrics": {
             "risk_threshold": 8,
-            "accuracy": 0.9240506329113924,
-            "roc_auc": 0.9791208791208791
+            "accuracy": 0.8987341772151899,
+            "roc_auc": 0.9824175824175824
         }
     },
     "shap_explainability": {

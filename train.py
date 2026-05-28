@@ -44,6 +44,7 @@ ADVANCED_NUMERIC_FEATURES = [
     "studytime",
     "failures",
     "absences",
+    "attendance_rate",
     "Medu",
     "Fedu",
 ]
