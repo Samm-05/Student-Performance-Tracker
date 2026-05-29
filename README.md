@@ -1,4 +1,4 @@
-# 🎓 AI Student Performance Predictor (SaaS-Level ML Project)
+# 🎓 AI Student Performance Predictor 
 
 ## 📌 Internship Project Report
 
